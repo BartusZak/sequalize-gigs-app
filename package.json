@@ -1,0 +1,32 @@
+{
+  "name": "sequalize-gigs-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BartusZak/sequalize-gigs-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BartusZak/sequalize-gigs-app/issues"
+  },
+  "homepage": "https://github.com/BartusZak/sequalize-gigs-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "pg": "^7.10.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
